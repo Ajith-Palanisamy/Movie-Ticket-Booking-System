@@ -1,4 +1,7 @@
 Refer Telusco jersey Rest using Maven in eclipse
+src folder and pom.xml are the main.
+project folder name is mtbs
+
 
 1.This is Maven project created using Eclipse
 2.In the pom.xml have to specify dependancy code for required jars
@@ -11,3 +14,5 @@ Each package has corresponding POJO class,Resource class where API is written an
 8.for user http://localhost:8080/mtbs/user.html
 9.for manager http://localhost:8080/mtbs/manager.html
 10.no login registration is added
+
+It may not work when you clone since in eclipse maven each project have different name and version.and default web.xml also contains its default project name..So better crete maven project and copy paste content alone.
