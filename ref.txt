@@ -16,5 +16,5 @@ Each package has corresponding POJO class,Resource class where API is written an
 10.no login registration is added
 11.Make sure netwotk is connect..since i added jquery online link in html file
 12.Myresource.java and index.jsp are defaultly created by eclipse
-
+13.In this ,for some APIs only I retured pojo class object or list of objects (User,Movie,Screen) which converted implicitly to JSON. for all Others I directly returned JSONObject or JSONArray 
 It may not work when you clone since in eclipse maven each project have different name and version.and default web.xml also contains its default project name..So better crete maven project and copy paste content alone.
