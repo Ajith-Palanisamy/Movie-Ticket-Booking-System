@@ -14,5 +14,7 @@ Each package has corresponding POJO class,Resource class where API is written an
 8.for user http://localhost:8080/mtbs/user.html
 9.for manager http://localhost:8080/mtbs/manager.html
 10.no login registration is added
+11.Make sure netwotk is connect..since i added jquery online link in html file
+12.Myresource.java and index.jsp are defaultly created by eclipse
 
 It may not work when you clone since in eclipse maven each project have different name and version.and default web.xml also contains its default project name..So better crete maven project and copy paste content alone.
