@@ -1,0 +1,13 @@
+Refer Telusco jersey Rest using Maven in eclipse
+
+1.This is Maven project created using Eclipse
+2.In the pom.xml have to specify dependancy code for required jars
+3.Inside src/main/java you have all the java classes.I have created separete package for each entity..Like Ticket,User..
+Each package has corresponding POJO class,Resource class where API is written and DAO class for DB operations
+4.inside src/main/webapp/js you have js files where jquery is writte.
+5.inside src/main/webapp three html files are there.
+6.Update src/main/java/com/mtbs/db/DBHandler.java with your postgresSQL port,username and password
+7.It is not a complete project http://localhost:8080/mtbs/admin.html to access admin page..8080 is my tomcat server port and mtbs is eclipse project name
+8.for user http://localhost:8080/mtbs/user.html
+9.for manager http://localhost:8080/mtbs/manager.html
+10.no login registration is added
